@@ -55,8 +55,6 @@
 | 变量名 | 说明 | 示例值 |
 |--------|------|--------|
 | `PADDLEOCR_TOKEN` | PaddleOCR Access Token | 你获取的 Token |
-| `USERNAME` | 登录用户名（自己设置） | `admin` |
-| `PASSWORD` | 登录密码（自己设置） | `123456` |
 
 5. 添加完后，点击 **保存并部署**
 
@@ -98,8 +96,6 @@ curl -X PUT "https://api.cloudflare.com/client/v4/accounts/$ACCOUNT_ID/workers/s
 | 变量名 | 值 |
 |--------|------|
 | `PADDLEOCR_TOKEN` | 你的 PaddleOCR Token |
-| `USERNAME` | 登录用户名 |
-| `PASSWORD` | 登录密码 |
 
 4. 点击 **保存并部署**
 
