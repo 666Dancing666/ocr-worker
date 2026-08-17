@@ -1,5 +1,3 @@
-// 移除 sessions 存储，不再需要登录验证
-
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
