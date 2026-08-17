@@ -50,7 +50,7 @@
 1. 在 Worker 页面，点击顶部 **设置** 选项卡
 2. 左侧菜单点击 **变量**
 3. 在 **环境变量** 部分，点击 **添加变量**
-4. 依次添加以下 3 个变量（全部选择 **"密钥"** 类型）：
+4. 依次添加以下变量（选择 **"密钥"** 类型）：
 
 | 变量名 | 说明 | 示例值 |
 |--------|------|--------|
@@ -91,7 +91,7 @@ curl -X PUT "https://api.cloudflare.com/client/v4/accounts/$ACCOUNT_ID/workers/s
 
 1. 进入 Cloudflare Dashboard → **Workers 和 Pages** → 点击你的 Worker
 2. 点击 **设置** → **变量**
-3. 添加以下 3 个密钥类型变量：
+3. 添加以下密钥类型变量：
 
 | 变量名 | 值 |
 |--------|------|
@@ -107,7 +107,6 @@ curl -X POST "https://你的Worker域名" \
   -d '{"imageUrl":"https://paddleocr.bj.bcebos.com/demo/test.jpg"}'
 ```
 
-如果返回 `{"error":"未授权，请先登录"}`，说明 Worker 已正常运行。
 
 ## 📱 使用说明
 
